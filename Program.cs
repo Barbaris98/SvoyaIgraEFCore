@@ -1,3 +1,7 @@
+using System;
+using System.Windows.Forms;
+
+
 namespace SvoyaIgraEFCore
 {
     internal static class Program
@@ -13,5 +17,15 @@ namespace SvoyaIgraEFCore
             ApplicationConfiguration.Initialize();
             Application.Run(new MainForm());
         }
+        
+        /* всё равно этот класс не доступен... придёться 25 методов писать..
+        static class PointCount //Очки команд
+        {
+            public static int point1 { get; set; }
+            public static int point2 { get; set; }
+            public static int point3 { get; set; }
+
+        }
+        */
     }
 }

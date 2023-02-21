@@ -12,8 +12,7 @@ namespace SvoyaIgraEFCore
         public DbSet<Question> Questions { get; set; } = null!;
         public ApplicationContext()
         {
-            //Database.EnsureDeleted();   // удаляем бд со старой схемой
-            Database.EnsureCreated();   // создаем бд с новой схемой
+            Database.EnsureCreated();   // создаем/подключаемся бд с новой схемой
         }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

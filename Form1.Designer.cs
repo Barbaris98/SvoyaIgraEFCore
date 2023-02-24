@@ -41,7 +41,7 @@
             // 
             // textBox1
             // 
-            this.textBox1.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.textBox1.Font = new System.Drawing.Font("Times New Roman", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.textBox1.Location = new System.Drawing.Point(12, 13);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
@@ -53,6 +53,7 @@
             // 
             // textBox2
             // 
+            this.textBox2.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.textBox2.Location = new System.Drawing.Point(137, 391);
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
@@ -71,6 +72,7 @@
             this.button100.TabIndex = 29;
             this.button100.Text = "Показать!";
             this.button100.UseVisualStyleBackColor = true;
+            this.button100.Click += new System.EventHandler(this.button100_Click);
             // 
             // label7
             // 
@@ -91,6 +93,7 @@
             this.button1.TabIndex = 31;
             this.button1.Text = "1";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
@@ -101,6 +104,7 @@
             this.button2.TabIndex = 32;
             this.button2.Text = "2";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
@@ -111,6 +115,7 @@
             this.button3.TabIndex = 33;
             this.button3.Text = "3";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // label1
             // 
@@ -131,6 +136,7 @@
             this.button4.TabIndex = 35;
             this.button4.Text = "Никто не ответил";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // Form1
             // 

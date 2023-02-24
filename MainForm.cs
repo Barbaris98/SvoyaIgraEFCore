@@ -44,6 +44,13 @@ namespace SvoyaIgraEFCore
 
         }
 
+        public static class HowShowAnswer //Костыль для вывода соответ Ответа при нажатии кнопки на дочерней форме
+        {
+            public static int showAnswerToId { get; set; }
+
+
+        }
+
         //Обновить
         private void button100_Click(object sender, EventArgs e)
         {
@@ -138,6 +145,13 @@ namespace SvoyaIgraEFCore
                 question = db.Questions.Where(q => q.Id == 2).ToList();
                 //выводим содержимое question по нулевому индексу, а не сам объект question!
                 form2.textBox1.Text = question[0].Text.ToString();
+
+                HowShowAnswer.showAnswerToId = 1;
+
+                //form2.textBox2.Text = question[0].Answer.ToString();
+
+
+
             }
 
 

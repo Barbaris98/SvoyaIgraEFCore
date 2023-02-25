@@ -232,5 +232,383 @@ namespace SvoyaIgraEFCore
 
             }
         }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            Form1 form1 = new Form1(this);
+            form1.Show();
+            button6.Enabled = false;
+
+            using (ApplicationContext db = new ApplicationContext())
+            {
+                List<Question> question = new List<Question>();
+                question = db.Questions.Where(q => q.Id == 6).ToList();
+                //выводим содержимое question по нулевому индексу, а не сам объект question!
+                form1.textBox1.Text = question[0].Text.ToString();
+
+                //изменяем параметр у костыля чтоб ответ показывался по соответ id
+                HowShowAnswer.showAnswerToId = 6;
+
+            }
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            Form2 form2 = new Form2(this);
+            form2.Show();
+            button7.Enabled = false;
+
+            using (ApplicationContext db = new ApplicationContext())
+            {
+                List<Question> question = new List<Question>();
+                question = db.Questions.Where(q => q.Id == 7).ToList();
+                //выводим содержимое question по нулевому индексу, а не сам объект question!
+                form2.textBox1.Text = question[0].Text.ToString();
+
+                //изменяем параметр у костыля чтоб ответ показывался по соответ id
+                HowShowAnswer.showAnswerToId = 7;
+            }
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            Form3 form3 = new Form3(this);
+            form3.Show();
+            button8.Enabled = false;
+
+            using (ApplicationContext db = new ApplicationContext())
+            {
+                List<Question> question = new List<Question>();
+                question = db.Questions.Where(q => q.Id == 8).ToList();
+                //выводим содержимое question по нулевому индексу, а не сам объект question!
+                form3.textBox1.Text = question[0].Text.ToString();
+
+                //изменяем параметр у костыля чтоб ответ показывался по соответ id
+                HowShowAnswer.showAnswerToId = 8;
+
+            }
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            Form4 form4 = new Form4(this);
+            form4.Show();
+            button9.Enabled = false;
+
+            using (ApplicationContext db = new ApplicationContext())
+            {
+                List<Question> question = new List<Question>();
+                question = db.Questions.Where(q => q.Id == 9).ToList();
+                //выводим содержимое question по нулевому индексу, а не сам объект question!
+                form4.textBox1.Text = question[0].Text.ToString();
+
+                //изменяем параметр у костыля чтоб ответ показывался по соответ id
+                HowShowAnswer.showAnswerToId = 9;
+
+            }
+        }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            Form5 form5 = new Form5(this);
+            form5.Show();
+            button10.Enabled = false;
+
+            using (ApplicationContext db = new ApplicationContext())
+            {
+                List<Question> question = new List<Question>();
+                question = db.Questions.Where(q => q.Id == 10).ToList();
+                //выводим содержимое question по нулевому индексу, а не сам объект question!
+                form5.textBox1.Text = question[0].Text.ToString();
+
+                //изменяем параметр у костыля чтоб ответ показывался по соответ id
+                HowShowAnswer.showAnswerToId = 10;
+
+            }
+        }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            Form1 form1 = new Form1(this);
+            form1.Show();
+            button11.Enabled = false;
+
+            using (ApplicationContext db = new ApplicationContext())
+            {
+                List<Question> question = new List<Question>();
+                question = db.Questions.Where(q => q.Id == 11).ToList();
+                //выводим содержимое question по нулевому индексу, а не сам объект question!
+                form1.textBox1.Text = question[0].Text.ToString();
+
+                //изменяем параметр у костыля чтоб ответ показывался по соответ id
+                HowShowAnswer.showAnswerToId = 11;
+
+            }
+        }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+            Form2 form2 = new Form2(this);
+            form2.Show();
+            button12.Enabled = false;
+
+            using (ApplicationContext db = new ApplicationContext())
+            {
+                List<Question> question = new List<Question>();
+                question = db.Questions.Where(q => q.Id == 12).ToList();
+                //выводим содержимое question по нулевому индексу, а не сам объект question!
+                form2.textBox1.Text = question[0].Text.ToString();
+
+                //изменяем параметр у костыля чтоб ответ показывался по соответ id
+                HowShowAnswer.showAnswerToId = 12;
+            }
+        }
+
+        private void button13_Click(object sender, EventArgs e)
+        {
+            Form3 form3 = new Form3(this);
+            form3.Show();
+            button13.Enabled = false;
+
+            using (ApplicationContext db = new ApplicationContext())
+            {
+                List<Question> question = new List<Question>();
+                question = db.Questions.Where(q => q.Id == 13).ToList();
+                //выводим содержимое question по нулевому индексу, а не сам объект question!
+                form3.textBox1.Text = question[0].Text.ToString();
+
+                //изменяем параметр у костыля чтоб ответ показывался по соответ id
+                HowShowAnswer.showAnswerToId = 13;
+
+            }
+        }
+
+        private void button14_Click(object sender, EventArgs e)
+        {
+            Form4 form4 = new Form4(this);
+            form4.Show();
+            button14.Enabled = false;
+
+            using (ApplicationContext db = new ApplicationContext())
+            {
+                List<Question> question = new List<Question>();
+                question = db.Questions.Where(q => q.Id == 14).ToList();
+                //выводим содержимое question по нулевому индексу, а не сам объект question!
+                form4.textBox1.Text = question[0].Text.ToString();
+
+                //изменяем параметр у костыля чтоб ответ показывался по соответ id
+                HowShowAnswer.showAnswerToId = 14;
+
+            }
+        }
+
+        private void button15_Click(object sender, EventArgs e)
+        {
+            Form5 form5 = new Form5(this);
+            form5.Show();
+            button15.Enabled = false;
+
+            using (ApplicationContext db = new ApplicationContext())
+            {
+                List<Question> question = new List<Question>();
+                question = db.Questions.Where(q => q.Id == 15).ToList();
+                //выводим содержимое question по нулевому индексу, а не сам объект question!
+                form5.textBox1.Text = question[0].Text.ToString();
+
+                //изменяем параметр у костыля чтоб ответ показывался по соответ id
+                HowShowAnswer.showAnswerToId = 15;
+
+            }
+        }
+
+        //картинки-клейма
+        private void button16_Click(object sender, EventArgs e)
+        {
+            Form6 form6 = new Form6(this);
+            form6.Show();
+            button16.Enabled = false;
+
+            using (ApplicationContext db = new ApplicationContext())
+            {
+                List<Question> question = new List<Question>();
+                question = db.Questions.Where(q => q.Id == 16).ToList();
+                //выводим содержимое question по нулевому индексу, а не сам объект question!
+                form6.textBox1.Text = question[0].Text.ToString();
+
+                //изменяем параметр у костыля чтоб ответ показывался по соответ id
+                HowShowAnswer.showAnswerToId = 16;
+
+            }
+        }
+
+        private void button17_Click(object sender, EventArgs e)
+        {
+            Form7 form7 = new Form7(this);
+            form7.Show();
+            button17.Enabled = false;
+
+            using (ApplicationContext db = new ApplicationContext())
+            {
+                List<Question> question = new List<Question>();
+                question = db.Questions.Where(q => q.Id == 17).ToList();
+                //выводим содержимое question по нулевому индексу, а не сам объект question!
+                form7.textBox1.Text = question[0].Text.ToString();
+
+                //изменяем параметр у костыля чтоб ответ показывался по соответ id
+                HowShowAnswer.showAnswerToId = 17;
+
+            }
+        }
+
+        private void button18_Click(object sender, EventArgs e)
+        {
+            Form8 form8 = new Form8(this);
+            form8.Show();
+            button18.Enabled = false;
+
+            using (ApplicationContext db = new ApplicationContext())
+            {
+                List<Question> question = new List<Question>();
+                question = db.Questions.Where(q => q.Id == 18).ToList();
+                //выводим содержимое question по нулевому индексу, а не сам объект question!
+                form8.textBox1.Text = question[0].Text.ToString();
+
+                //изменяем параметр у костыля чтоб ответ показывался по соответ id
+                HowShowAnswer.showAnswerToId = 18;
+
+            }
+        }
+
+        private void button19_Click(object sender, EventArgs e)
+        {
+            Form9 form9 = new Form9(this);
+            form9.Show();
+            button19.Enabled = false;
+
+            using (ApplicationContext db = new ApplicationContext())
+            {
+                List<Question> question = new List<Question>();
+                question = db.Questions.Where(q => q.Id == 19).ToList();
+                //выводим содержимое question по нулевому индексу, а не сам объект question!
+                form9.textBox1.Text = question[0].Text.ToString();
+
+                //изменяем параметр у костыля чтоб ответ показывался по соответ id
+                HowShowAnswer.showAnswerToId = 19;
+
+            }
+        }
+
+        private void button20_Click(object sender, EventArgs e)
+        {
+            Form10 form10 = new Form10(this);
+            form10.Show();
+            button20.Enabled = false;
+
+            using (ApplicationContext db = new ApplicationContext())
+            {
+                List<Question> question = new List<Question>();
+                question = db.Questions.Where(q => q.Id == 20).ToList();
+                //выводим содержимое question по нулевому индексу, а не сам объект question!
+                form10.textBox1.Text = question[0].Text.ToString();
+
+                //изменяем параметр у костыля чтоб ответ показывался по соответ id
+                HowShowAnswer.showAnswerToId = 20;
+
+            }
+        }
+
+        private void button21_Click(object sender, EventArgs e)
+        {
+            Form1 form1 = new Form1(this);
+            form1.Show();
+            button21.Enabled = false;
+
+            using (ApplicationContext db = new ApplicationContext())
+            {
+                List<Question> question = new List<Question>();
+                question = db.Questions.Where(q => q.Id == 21).ToList();
+                //выводим содержимое question по нулевому индексу, а не сам объект question!
+                form1.textBox1.Text = question[0].Text.ToString();
+
+                //изменяем параметр у костыля чтоб ответ показывался по соответ id
+                HowShowAnswer.showAnswerToId = 21;
+
+            }
+        }
+
+        private void button22_Click(object sender, EventArgs e)
+        {
+            Form2 form2 = new Form2(this);
+            form2.Show();
+            button22.Enabled = false;
+
+            using (ApplicationContext db = new ApplicationContext())
+            {
+                List<Question> question = new List<Question>();
+                question = db.Questions.Where(q => q.Id == 22).ToList();
+                //выводим содержимое question по нулевому индексу, а не сам объект question!
+                form2.textBox1.Text = question[0].Text.ToString();
+
+                //изменяем параметр у костыля чтоб ответ показывался по соответ id
+                HowShowAnswer.showAnswerToId = 22;
+            }
+        }
+
+        private void button23_Click(object sender, EventArgs e)
+        {
+            Form3 form3 = new Form3(this);
+            form3.Show();
+            button23.Enabled = false;
+
+            using (ApplicationContext db = new ApplicationContext())
+            {
+                List<Question> question = new List<Question>();
+                question = db.Questions.Where(q => q.Id == 23).ToList();
+                //выводим содержимое question по нулевому индексу, а не сам объект question!
+                form3.textBox1.Text = question[0].Text.ToString();
+
+                //изменяем параметр у костыля чтоб ответ показывался по соответ id
+                HowShowAnswer.showAnswerToId = 23;
+
+            }
+        }
+
+        private void button24_Click(object sender, EventArgs e)
+        {
+            Form4 form4 = new Form4(this);
+            form4.Show();
+            button24.Enabled = false;
+
+            using (ApplicationContext db = new ApplicationContext())
+            {
+                List<Question> question = new List<Question>();
+                question = db.Questions.Where(q => q.Id == 24).ToList();
+                //выводим содержимое question по нулевому индексу, а не сам объект question!
+                form4.textBox1.Text = question[0].Text.ToString();
+
+                //изменяем параметр у костыля чтоб ответ показывался по соответ id
+                HowShowAnswer.showAnswerToId = 24;
+
+            }
+        }
+
+        private void button25_Click(object sender, EventArgs e)
+        {
+            Form5 form5 = new Form5(this);
+            form5.Show();
+            button25.Enabled = false;
+
+            using (ApplicationContext db = new ApplicationContext())
+            {
+                List<Question> question = new List<Question>();
+                question = db.Questions.Where(q => q.Id == 25).ToList();
+                //выводим содержимое question по нулевому индексу, а не сам объект question!
+                form5.textBox1.Text = question[0].Text.ToString();
+
+                //изменяем параметр у костыля чтоб ответ показывался по соответ id
+                HowShowAnswer.showAnswerToId = 25;
+
+            }
+        }
     }
 }

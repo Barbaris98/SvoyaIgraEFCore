@@ -90,6 +90,36 @@ namespace SvoyaIgraEFCore
                 }
             }
 
+            if (MainForm.HowShowAnswer.showAnswerToId == 9)
+            {
+                using (ApplicationContext db = new ApplicationContext())
+                {
+                    List<Question> question = new List<Question>();
+                    question = db.Questions.Where(q => q.Id == 9).ToList();
+                    textBox2.Text = question[0].Answer.ToString();
+                }
+            }
+
+            if (MainForm.HowShowAnswer.showAnswerToId == 14)
+            {
+                using (ApplicationContext db = new ApplicationContext())
+                {
+                    List<Question> question = new List<Question>();
+                    question = db.Questions.Where(q => q.Id == 14).ToList();
+                    textBox2.Text = question[0].Answer.ToString();
+                }
+            }
+
+            if (MainForm.HowShowAnswer.showAnswerToId == 24)
+            {
+                using (ApplicationContext db = new ApplicationContext())
+                {
+                    List<Question> question = new List<Question>();
+                    question = db.Questions.Where(q => q.Id == 24).ToList();
+                    textBox2.Text = question[0].Answer.ToString();
+                }
+            }
+
             //активровать кнопки после показа ответа 
             button1.Enabled = true;
             button2.Enabled = true;

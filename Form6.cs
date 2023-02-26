@@ -89,6 +89,25 @@ namespace SvoyaIgraEFCore
                 }
             }
 
+            if (MainForm.HowShowAnswer.showAnswerToId == 51)
+            {
+                using (ApplicationContext db = new ApplicationContext())
+                {
+                    List<Question> question = new List<Question>();
+                    question = db.Questions.Where(q => q.Id == 51).ToList();
+                    textBox2.Text = question[0].Answer.ToString();
+                }
+
+                pictureBox1.Image = System.Drawing.Image.FromFile("Resources=konstryk1.jpg");
+
+                //pictureBox1.Image = System.Drawing.Image.FromFile("konstryk1.jpg");
+            }
+
+            
+
+
+
+
             //активровать кнопки после показа ответа 
             button1.Enabled = true;
             button2.Enabled = true;

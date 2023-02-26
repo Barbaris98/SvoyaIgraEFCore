@@ -61,6 +61,66 @@ namespace SvoyaIgraEFCore.Properties {
         }
         
         /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Icon, аналогичного (Значок).
+        /// </summary>
+        internal static System.Drawing.Icon bullets {
+            get {
+                object obj = ResourceManager.GetObject("bullets", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap iklemo1 {
+            get {
+                object obj = ResourceManager.GetObject("iklemo1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap iklemo2 {
+            get {
+                object obj = ResourceManager.GetObject("iklemo2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap iklemo3 {
+            get {
+                object obj = ResourceManager.GetObject("iklemo3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap iklemo4 {
+            get {
+                object obj = ResourceManager.GetObject("iklemo4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap iklemo5 {
+            get {
+                object obj = ResourceManager.GetObject("iklemo5", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap konstryk1 {
@@ -106,6 +166,16 @@ namespace SvoyaIgraEFCore.Properties {
         internal static System.Drawing.Bitmap konstryk5 {
             get {
                 object obj = ResourceManager.GetObject("konstryk5", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap zachet {
+            get {
+                object obj = ResourceManager.GetObject("zachet", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

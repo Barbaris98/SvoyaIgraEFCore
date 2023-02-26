@@ -19,6 +19,8 @@ namespace SvoyaIgraEFCore
         {
             mainForm = owner;
             InitializeComponent();
+
+            
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -75,6 +77,7 @@ namespace SvoyaIgraEFCore
         private void button4_Click(object sender, EventArgs e)
         {
             Close();
+
         }
 
         private void button100_Click(object sender, EventArgs e)
@@ -98,14 +101,7 @@ namespace SvoyaIgraEFCore
                     textBox2.Text = question[0].Answer.ToString();
                 }
 
-                pictureBox1.Image = System.Drawing.Image.FromFile("Resources=konstryk1.jpg");
-
-                //pictureBox1.Image = System.Drawing.Image.FromFile("konstryk1.jpg");
             }
-
-            
-
-
 
 
             //активровать кнопки после показа ответа 
@@ -114,5 +110,6 @@ namespace SvoyaIgraEFCore
             button3.Enabled = true;
             button4.Enabled = true;
         }
+
     }
 }

@@ -49,6 +49,7 @@
             this.pictureBox1.Location = new System.Drawing.Point(30, 12);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(521, 536);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 64;
             this.pictureBox1.TabStop = false;
             // 
@@ -180,8 +181,6 @@
         }
 
         #endregion
-
-        private PictureBox pictureBox1;
         private Button button4;
         private Label label1;
         private Button button3;
@@ -191,5 +190,6 @@
         private Button button100;
         protected internal TextBox textBox2;
         protected internal TextBox textBox1;
+        protected internal PictureBox pictureBox1;
     }
 }

@@ -1095,6 +1095,10 @@ namespace SvoyaIgraEFCore
             form6.Show();
             button51.Enabled = false;
 
+            //меняем картинку по соответствующему вопросу 
+            form6.pictureBox1.Image = (Image)Properties.Resources.ResourceManager.GetObject("konstryk1");
+
+
             using (ApplicationContext db = new ApplicationContext())
             {
                 List<Question> question = new List<Question>();
@@ -1113,6 +1117,9 @@ namespace SvoyaIgraEFCore
             Form7 form7 = new Form7(this);
             form7.Show();
             button52.Enabled = false;
+
+            //меняем картинку по соответствующему вопросу 
+            form7.pictureBox1.Image = (Image)Properties.Resources.ResourceManager.GetObject("konstryk2");
 
             using (ApplicationContext db = new ApplicationContext())
             {
@@ -1133,6 +1140,9 @@ namespace SvoyaIgraEFCore
             form8.Show();
             button53.Enabled = false;
 
+            //меняем картинку по соответствующему вопросу 
+            form8.pictureBox1.Image = (Image)Properties.Resources.ResourceManager.GetObject("konstryk3");
+
             using (ApplicationContext db = new ApplicationContext())
             {
                 List<Question> question = new List<Question>();
@@ -1148,16 +1158,19 @@ namespace SvoyaIgraEFCore
 
         private void button54_Click(object sender, EventArgs e)
         {
-            Form10 form10 = new Form10(this);
-            form10.Show();
+            Form9 form9 = new Form9(this);
+            form9.Show();
             button54.Enabled = false;
+
+            //меняем картинку по соответствующему вопросу 
+            form9.pictureBox1.Image = (Image)Properties.Resources.ResourceManager.GetObject("konstryk4");
 
             using (ApplicationContext db = new ApplicationContext())
             {
                 List<Question> question = new List<Question>();
                 question = db.Questions.Where(q => q.Id == 54).ToList();
                 //выводим содержимое question по нулевому индексу, а не сам объект question!
-                form10.textBox1.Text = question[0].Text.ToString();
+                form9.textBox1.Text = question[0].Text.ToString();
 
                 //изменяем параметр у костыля чтоб ответ показывался по соответ id
                 HowShowAnswer.showAnswerToId = 54;
@@ -1170,6 +1183,9 @@ namespace SvoyaIgraEFCore
             Form10 form10 = new Form10(this);
             form10.Show();
             button55.Enabled = false;
+
+            //меняем картинку по соответствующему вопросу 
+            form10.pictureBox1.Image = (Image)Properties.Resources.ResourceManager.GetObject("konstryk5");
 
             using (ApplicationContext db = new ApplicationContext())
             {

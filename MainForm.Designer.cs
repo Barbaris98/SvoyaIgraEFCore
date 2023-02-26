@@ -104,6 +104,7 @@
             this.label13 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.label15 = new System.Windows.Forms.Label();
             this.label100 = new System.Windows.Forms.Label();
             this.button100 = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
@@ -112,7 +113,6 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
-            this.label15 = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
@@ -712,6 +712,7 @@
             this.button40.TabIndex = 14;
             this.button40.Text = "button40";
             this.button40.UseVisualStyleBackColor = true;
+            this.button40.Click += new System.EventHandler(this.button40_Click);
             // 
             // button39
             // 
@@ -721,6 +722,7 @@
             this.button39.TabIndex = 13;
             this.button39.Text = "button39";
             this.button39.UseVisualStyleBackColor = true;
+            this.button39.Click += new System.EventHandler(this.button39_Click);
             // 
             // button38
             // 
@@ -730,6 +732,7 @@
             this.button38.TabIndex = 12;
             this.button38.Text = "button38";
             this.button38.UseVisualStyleBackColor = true;
+            this.button38.Click += new System.EventHandler(this.button38_Click);
             // 
             // button37
             // 
@@ -739,6 +742,7 @@
             this.button37.TabIndex = 11;
             this.button37.Text = "button37";
             this.button37.UseVisualStyleBackColor = true;
+            this.button37.Click += new System.EventHandler(this.button37_Click);
             // 
             // button36
             // 
@@ -748,6 +752,7 @@
             this.button36.TabIndex = 10;
             this.button36.Text = "button36";
             this.button36.UseVisualStyleBackColor = true;
+            this.button36.Click += new System.EventHandler(this.button36_Click);
             // 
             // button35
             // 
@@ -757,6 +762,7 @@
             this.button35.TabIndex = 9;
             this.button35.Text = "button35";
             this.button35.UseVisualStyleBackColor = true;
+            this.button35.Click += new System.EventHandler(this.button35_Click);
             // 
             // button34
             // 
@@ -766,6 +772,7 @@
             this.button34.TabIndex = 8;
             this.button34.Text = "button34";
             this.button34.UseVisualStyleBackColor = true;
+            this.button34.Click += new System.EventHandler(this.button34_Click);
             // 
             // button33
             // 
@@ -775,6 +782,7 @@
             this.button33.TabIndex = 7;
             this.button33.Text = "button33";
             this.button33.UseVisualStyleBackColor = true;
+            this.button33.Click += new System.EventHandler(this.button33_Click);
             // 
             // button32
             // 
@@ -784,6 +792,7 @@
             this.button32.TabIndex = 6;
             this.button32.Text = "button32";
             this.button32.UseVisualStyleBackColor = true;
+            this.button32.Click += new System.EventHandler(this.button32_Click);
             // 
             // button31
             // 
@@ -793,6 +802,7 @@
             this.button31.TabIndex = 5;
             this.button31.Text = "button31";
             this.button31.UseVisualStyleBackColor = true;
+            this.button31.Click += new System.EventHandler(this.button31_Click);
             // 
             // button30
             // 
@@ -802,6 +812,7 @@
             this.button30.TabIndex = 4;
             this.button30.Text = "button30";
             this.button30.UseVisualStyleBackColor = true;
+            this.button30.Click += new System.EventHandler(this.button30_Click);
             // 
             // button29
             // 
@@ -811,6 +822,7 @@
             this.button29.TabIndex = 3;
             this.button29.Text = "button29";
             this.button29.UseVisualStyleBackColor = true;
+            this.button29.Click += new System.EventHandler(this.button29_Click);
             // 
             // button28
             // 
@@ -820,6 +832,7 @@
             this.button28.TabIndex = 2;
             this.button28.Text = "button28";
             this.button28.UseVisualStyleBackColor = true;
+            this.button28.Click += new System.EventHandler(this.button28_Click);
             // 
             // button27
             // 
@@ -829,6 +842,7 @@
             this.button27.TabIndex = 1;
             this.button27.Text = "button27";
             this.button27.UseVisualStyleBackColor = true;
+            this.button27.Click += new System.EventHandler(this.button27_Click);
             // 
             // button26
             // 
@@ -838,6 +852,7 @@
             this.button26.TabIndex = 0;
             this.button26.Text = "button26";
             this.button26.UseVisualStyleBackColor = true;
+            this.button26.Click += new System.EventHandler(this.button26_Click);
             // 
             // panel2
             // 
@@ -909,6 +924,15 @@
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "Раунд 3";
             this.tabPage3.UseVisualStyleBackColor = true;
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Location = new System.Drawing.Point(266, 107);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(187, 15);
+            this.label15.TabIndex = 1;
+            this.label15.Text = "Угажай  модель оружия по фото";
             // 
             // label100
             // 
@@ -992,15 +1016,6 @@
             this.textBox3.ReadOnly = true;
             this.textBox3.Size = new System.Drawing.Size(140, 40);
             this.textBox3.TabIndex = 34;
-            // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(266, 107);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(187, 15);
-            this.label15.TabIndex = 1;
-            this.label15.Text = "Угажай  модель оружия по фото";
             // 
             // MainForm
             // 

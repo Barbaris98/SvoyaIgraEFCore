@@ -104,6 +104,8 @@
             this.label13 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.button101 = new System.Windows.Forms.Button();
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
             this.button60 = new System.Windows.Forms.Button();
             this.button59 = new System.Windows.Forms.Button();
@@ -118,8 +120,6 @@
             this.panel3 = new System.Windows.Forms.Panel();
             this.label19 = new System.Windows.Forms.Label();
             this.label20 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
-            this.label100 = new System.Windows.Forms.Label();
             this.button100 = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
@@ -127,6 +127,7 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.menuStrip1.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
@@ -136,8 +137,10 @@
             this.tableLayoutPanel2.SuspendLayout();
             this.panel2.SuspendLayout();
             this.tabPage3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.tableLayoutPanel3.SuspendLayout();
             this.panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -992,16 +995,38 @@
             // 
             // tabPage3
             // 
+            this.tabPage3.Controls.Add(this.pictureBox2);
+            this.tabPage3.Controls.Add(this.pictureBox1);
+            this.tabPage3.Controls.Add(this.button101);
             this.tabPage3.Controls.Add(this.tableLayoutPanel3);
             this.tabPage3.Controls.Add(this.panel3);
-            this.tabPage3.Controls.Add(this.label15);
-            this.tabPage3.Controls.Add(this.label100);
             this.tabPage3.Location = new System.Drawing.Point(4, 24);
             this.tabPage3.Name = "tabPage3";
             this.tabPage3.Size = new System.Drawing.Size(1052, 383);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "Раунд 3";
             this.tabPage3.UseVisualStyleBackColor = true;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::SvoyaIgraEFCore.Properties.Resources.sastavka1;
+            this.pictureBox1.Location = new System.Drawing.Point(6, 157);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(421, 223);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 30;
+            this.pictureBox1.TabStop = false;
+            // 
+            // button101
+            // 
+            this.button101.Font = new System.Drawing.Font("Times New Roman", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button101.Location = new System.Drawing.Point(433, 228);
+            this.button101.Name = "button101";
+            this.button101.Size = new System.Drawing.Size(189, 77);
+            this.button101.TabIndex = 29;
+            this.button101.Text = "Game over";
+            this.button101.UseVisualStyleBackColor = true;
+            this.button101.Click += new System.EventHandler(this.button101_Click);
             // 
             // tableLayoutPanel3
             // 
@@ -1038,6 +1063,7 @@
             this.button60.TabIndex = 9;
             this.button60.Text = "500";
             this.button60.UseVisualStyleBackColor = true;
+            this.button60.Click += new System.EventHandler(this.button60_Click);
             // 
             // button59
             // 
@@ -1048,6 +1074,7 @@
             this.button59.TabIndex = 8;
             this.button59.Text = "400";
             this.button59.UseVisualStyleBackColor = true;
+            this.button59.Click += new System.EventHandler(this.button59_Click);
             // 
             // button58
             // 
@@ -1058,6 +1085,7 @@
             this.button58.TabIndex = 7;
             this.button58.Text = "300";
             this.button58.UseVisualStyleBackColor = true;
+            this.button58.Click += new System.EventHandler(this.button58_Click);
             // 
             // button57
             // 
@@ -1068,6 +1096,7 @@
             this.button57.TabIndex = 6;
             this.button57.Text = "200";
             this.button57.UseVisualStyleBackColor = true;
+            this.button57.Click += new System.EventHandler(this.button57_Click);
             // 
             // button56
             // 
@@ -1078,6 +1107,7 @@
             this.button56.TabIndex = 5;
             this.button56.Text = "100";
             this.button56.UseVisualStyleBackColor = true;
+            this.button56.Click += new System.EventHandler(this.button56_Click);
             // 
             // button55
             // 
@@ -1163,24 +1193,6 @@
             this.label20.TabIndex = 0;
             this.label20.Text = "Оружейники";
             // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(133, 290);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(187, 15);
-            this.label15.TabIndex = 1;
-            this.label15.Text = "Угажай  модель оружия по фото";
-            // 
-            // label100
-            // 
-            this.label100.AutoSize = true;
-            this.label100.Location = new System.Drawing.Point(102, 228);
-            this.label100.Name = "label100";
-            this.label100.Size = new System.Drawing.Size(176, 15);
-            this.label100.TabIndex = 0;
-            this.label100.Text = "Угажай  оружейников по фото";
-            // 
             // button100
             // 
             this.button100.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
@@ -1255,6 +1267,16 @@
             this.textBox3.Size = new System.Drawing.Size(140, 40);
             this.textBox3.TabIndex = 34;
             // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::SvoyaIgraEFCore.Properties.Resources.sastavka2;
+            this.pictureBox2.Location = new System.Drawing.Point(626, 157);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(421, 223);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 31;
+            this.pictureBox2.TabStop = false;
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -1286,10 +1308,11 @@
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.tabPage3.ResumeLayout(false);
-            this.tabPage3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.tableLayoutPanel3.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1346,7 +1369,6 @@
         protected internal TextBox textBox1;
         protected internal TextBox textBox2;
         protected internal TextBox textBox3;
-        private Label label100;
         private Panel panel2;
         private Label label10;
         private Label label11;
@@ -1380,7 +1402,6 @@
         private Button button27;
         private Button button26;
         protected internal Button button2;
-        private Label label15;
         private Panel panel3;
         private Label label19;
         private Label label20;
@@ -1395,5 +1416,8 @@
         private Button button53;
         private Button button52;
         private Button button51;
+        private Button button101;
+        private PictureBox pictureBox1;
+        private PictureBox pictureBox2;
     }
 }

@@ -1089,6 +1089,8 @@ namespace SvoyaIgraEFCore
         }
         # endregion
 
+
+        # region [ Третий блок вопросов ]
         private void button51_Click(object sender, EventArgs e)
         {
             Form6 form6 = new Form6(this);
@@ -1108,7 +1110,6 @@ namespace SvoyaIgraEFCore
 
                 //изменяем параметр у костыля чтоб ответ показывался по соответ id
                 HowShowAnswer.showAnswerToId = 51;
-
             }
         }
 
@@ -1130,7 +1131,6 @@ namespace SvoyaIgraEFCore
 
                 //изменяем параметр у костыля чтоб ответ показывался по соответ id
                 HowShowAnswer.showAnswerToId = 52;
-
             }
         }
 
@@ -1152,7 +1152,6 @@ namespace SvoyaIgraEFCore
 
                 //изменяем параметр у костыля чтоб ответ показывался по соответ id
                 HowShowAnswer.showAnswerToId = 53;
-
             }
         }
 
@@ -1174,7 +1173,6 @@ namespace SvoyaIgraEFCore
 
                 //изменяем параметр у костыля чтоб ответ показывался по соответ id
                 HowShowAnswer.showAnswerToId = 54;
-
             }
         }
 
@@ -1191,13 +1189,222 @@ namespace SvoyaIgraEFCore
             {
                 List<Question> question = new List<Question>();
                 question = db.Questions.Where(q => q.Id == 55).ToList();
-                //выводим содержимое question по нулевому индексу, а не сам объект question!
+                //выводим содержимое question по нулевому индексу, а не сам объект questЗомбилэндion!
                 form10.textBox1.Text = question[0].Text.ToString();
 
                 //изменяем параметр у костыля чтоб ответ показывался по соответ id
                 HowShowAnswer.showAnswerToId = 55;
-
             }
         }
+
+        private void button56_Click(object sender, EventArgs e)
+        {
+            Form6 form6 = new Form6(this);
+            form6.Show();
+            button56.Enabled = false;
+
+            //меняем картинку по соответствующему вопросу 
+            form6.pictureBox1.Image = (Image)Properties.Resources.ResourceManager.GetObject("oryjie1");
+
+
+            using (ApplicationContext db = new ApplicationContext())
+            {
+                List<Question> question = new List<Question>();
+                question = db.Questions.Where(q => q.Id == 56).ToList();
+                //выводим содержимое question по нулевому индексу, а не сам объект question!
+                form6.textBox1.Text = question[0].Text.ToString();
+
+                //изменяем параметр у костыля чтоб ответ показывался по соответ id
+                HowShowAnswer.showAnswerToId = 56;
+            }
+        }
+
+        private void button57_Click(object sender, EventArgs e)
+        {
+            Form7 form7 = new Form7(this);
+            form7.Show();
+            button57.Enabled = false;
+
+            //меняем картинку по соответствующему вопросу 
+            form7.pictureBox1.Image = (Image)Properties.Resources.ResourceManager.GetObject("oryjie2");
+
+            using (ApplicationContext db = new ApplicationContext())
+            {
+                List<Question> question = new List<Question>();
+                question = db.Questions.Where(q => q.Id == 57).ToList();
+                //выводим содержимое question по нулевому индексу, а не сам объект question!
+                form7.textBox1.Text = question[0].Text.ToString();
+
+                //изменяем параметр у костыля чтоб ответ показывался по соответ id
+                HowShowAnswer.showAnswerToId = 57;
+            }
+        }
+
+        private void button58_Click(object sender, EventArgs e)
+        {
+            Form8 form8 = new Form8(this);
+            form8.Show();
+            button58.Enabled = false;
+
+            //меняем картинку по соответствующему вопросу 
+            form8.pictureBox1.Image = (Image)Properties.Resources.ResourceManager.GetObject("oryjie3");
+
+            using (ApplicationContext db = new ApplicationContext())
+            {
+                List<Question> question = new List<Question>();
+                question = db.Questions.Where(q => q.Id == 58).ToList();
+                //выводим содержимое question по нулевому индексу, а не сам объект question!
+                form8.textBox1.Text = question[0].Text.ToString();
+
+                //изменяем параметр у костыля чтоб ответ показывался по соответ id
+                HowShowAnswer.showAnswerToId = 58;
+            }
+        }
+
+        private void button59_Click(object sender, EventArgs e)
+        {
+            Form9 form9 = new Form9(this);
+            form9.Show();
+            button59.Enabled = false;
+
+            //меняем картинку по соответствующему вопросу 
+            form9.pictureBox1.Image = (Image)Properties.Resources.ResourceManager.GetObject("oryjie4");
+
+            using (ApplicationContext db = new ApplicationContext())
+            {
+                List<Question> question = new List<Question>();
+                question = db.Questions.Where(q => q.Id == 59).ToList();
+                //выводим содержимое question по нулевому индексу, а не сам объект question!
+                form9.textBox1.Text = question[0].Text.ToString();
+
+                //изменяем параметр у костыля чтоб ответ показывался по соответ id
+                HowShowAnswer.showAnswerToId = 59;
+            }
+        }
+
+        private void button60_Click(object sender, EventArgs e)
+        {
+            Form10 form10 = new Form10(this);
+            form10.Show();
+            button60.Enabled = false;
+
+            //меняем картинку по соответствующему вопросу 
+            form10.pictureBox1.Image = (Image)Properties.Resources.ResourceManager.GetObject("oryjie5");
+
+            using (ApplicationContext db = new ApplicationContext())
+            {
+                List<Question> question = new List<Question>();
+                question = db.Questions.Where(q => q.Id == 60).ToList();
+                //выводим содержимое question по нулевому индексу, а не сам объект questЗомбилэндion!
+                form10.textBox1.Text = question[0].Text.ToString();
+
+                //изменяем параметр у костыля чтоб ответ показывался по соответ id
+                HowShowAnswer.showAnswerToId = 60;
+            }
+        }
+        # endregion
+
+        
+        //Game over
+        private void button101_Click(object sender, EventArgs e)
+        {
+            GameOver gameOver = new GameOver(this);
+            gameOver.Show();
+            button101.Enabled = false;
+
+            string komand1Win = "1";
+            string komand2Win = "2";
+            string komand3Win = "3";
+            
+            //
+            if (PointCount.point1 > (PointCount.point2 | PointCount.point3))
+            {
+                gameOver.textBox1.Text == komand1Win;
+            }
+            else if (PointCount.point2 > (PointCount.point1 | PointCount.point3))
+            {
+                gameOver.textBox1.Text == komand2Win;
+            }
+            else if (PointCount.point3 > (PointCount.point1 | PointCount.point2))
+            {
+                gameOver.textBox1.Text == komand3Win;
+            }
+
+
+
+
+
+            /*
+            // записали в первый текст бокс
+            if (PointCount.point1 > (PointCount.point2 | PointCount.point3))
+            {
+                textBox1.Text = "1";
+            }
+            else if (PointCount.point2 > (PointCount.point1 | PointCount.point3))
+            {
+                textBox1.Text = "2";
+            }
+            else if (PointCount.point3 > (PointCount.point1 | PointCount.point2))
+            {
+                textBox1.Text = "3";
+            }
+
+            //записали во второй текст бокс
+            if (PointCount.point1 > (PointCount.point2 | PointCount.point3))
+            {
+                textBox2.Text = "1";
+            }
+            else if (PointCount.point2 > (PointCount.point1 | PointCount.point3))
+            {
+                textBox2.Text = "2";
+            }
+            else if (PointCount.point3 > (PointCount.point1 | PointCount.point2))
+            {
+                textBox2.Text = "3";
+            }
+
+            // Испраляем совпадение, чтоб не было два раза указания команды что она победила-она победила
+            if (textBox1.Text == textBox2.Text & textBox1.Text == "1")
+            {
+                if (PointCount.point1 > PointCount.point2)
+                {
+                    textBox2.Text = "2";
+                }
+                else
+                {
+                    textBox2.Text = "3";
+                }
+            }
+
+            if (textBox1.Text == textBox2.Text & textBox1.Text == "2")
+            {
+                if (PointCount.point1 > PointCount.point2)
+                {
+                    textBox2.Text = "1";
+                }
+                else
+                {
+                    textBox2.Text = "3";
+                }
+            }
+
+            if (textBox1.Text == textBox2.Text & textBox1.Text == "3")
+            {
+                if (PointCount.point1 > PointCount.point2)
+                {
+                    textBox2.Text = "1";
+                }
+                else
+                {
+                    textBox2.Text = "2";
+                }
+            }
+            */
+
+
+
+
+        }
+
     }
 }

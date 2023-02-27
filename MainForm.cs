@@ -1317,17 +1317,18 @@ namespace SvoyaIgraEFCore
             string komand3Win = "3";
             
             //
+            
             if (PointCount.point1 > (PointCount.point2 | PointCount.point3))
             {
-                gameOver.textBox1.Text == komand1Win;
+                gameOver.textBox1.Text = komand1Win;
             }
             else if (PointCount.point2 > (PointCount.point1 | PointCount.point3))
             {
-                gameOver.textBox1.Text == komand2Win;
+                gameOver.textBox1.Text = komand2Win;
             }
             else if (PointCount.point3 > (PointCount.point1 | PointCount.point2))
             {
-                gameOver.textBox1.Text == komand3Win;
+                gameOver.textBox1.Text = komand3Win;
             }
 
 

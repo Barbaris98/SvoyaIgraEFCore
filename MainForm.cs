@@ -1316,8 +1316,7 @@ namespace SvoyaIgraEFCore
             string komand2Win = "2";
             string komand3Win = "3";
             
-            //
-            
+            //выводим в первый текстбокс наиб число
             if (PointCount.point1 > (PointCount.point2 | PointCount.point3))
             {
                 gameOver.textBox1.Text = komand1Win;
@@ -1333,76 +1332,40 @@ namespace SvoyaIgraEFCore
 
 
 
-
-
-            /*
-            // записали в первый текст бокс
-            if (PointCount.point1 > (PointCount.point2 | PointCount.point3))
+            // выводим во второй текстбокс наиб число, с учётом первого набольшего
+            if (gameOver.textBox1.Text == komand1Win)
             {
-                textBox1.Text = "1";
-            }
-            else if (PointCount.point2 > (PointCount.point1 | PointCount.point3))
-            {
-                textBox1.Text = "2";
-            }
-            else if (PointCount.point3 > (PointCount.point1 | PointCount.point2))
-            {
-                textBox1.Text = "3";
-            }
-
-            //записали во второй текст бокс
-            if (PointCount.point1 > (PointCount.point2 | PointCount.point3))
-            {
-                textBox2.Text = "1";
-            }
-            else if (PointCount.point2 > (PointCount.point1 | PointCount.point3))
-            {
-                textBox2.Text = "2";
-            }
-            else if (PointCount.point3 > (PointCount.point1 | PointCount.point2))
-            {
-                textBox2.Text = "3";
-            }
-
-            // Испраляем совпадение, чтоб не было два раза указания команды что она победила-она победила
-            if (textBox1.Text == textBox2.Text & textBox1.Text == "1")
-            {
-                if (PointCount.point1 > PointCount.point2)
+                if(PointCount.point2 > PointCount.point3)
                 {
-                    textBox2.Text = "2";
+                    gameOver.textBox2.Text = komand2Win;
                 }
                 else
                 {
-                    textBox2.Text = "3";
+                    gameOver.textBox2.Text = komand3Win;
                 }
             }
-
-            if (textBox1.Text == textBox2.Text & textBox1.Text == "2")
+            else if (gameOver.textBox1.Text == komand2Win)
             {
-                if (PointCount.point1 > PointCount.point2)
+                if (PointCount.point1 > PointCount.point3)
                 {
-                    textBox2.Text = "1";
+                    gameOver.textBox2.Text = komand1Win;
                 }
                 else
                 {
-                    textBox2.Text = "3";
+                    gameOver.textBox2.Text = komand3Win;
                 }
             }
-
-            if (textBox1.Text == textBox2.Text & textBox1.Text == "3")
+            else if (gameOver.textBox1.Text == komand3Win)
             {
                 if (PointCount.point1 > PointCount.point2)
                 {
-                    textBox2.Text = "1";
+                    gameOver.textBox2.Text = komand1Win;
                 }
                 else
                 {
-                    textBox2.Text = "2";
+                    gameOver.textBox2.Text = komand2Win;
                 }
             }
-            */
-
-
 
 
         }

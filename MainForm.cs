@@ -1370,5 +1370,49 @@ namespace SvoyaIgraEFCore
 
         }
 
+        // Закрыть приложение Да-Нет?
+        private void MainForm_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            DialogResult result = MessageBox.Show(
+        "Закрыть приложение?",
+        "Закрытие",
+        MessageBoxButtons.YesNo,
+        MessageBoxIcon.Error,
+        MessageBoxDefaultButton.Button2,
+        MessageBoxOptions.DefaultDesktopOnly);
+
+            if (result == DialogResult.Yes)
+            {
+                //Close(); будет просто закрыться MessageBox, тк на НЁМ ты его вызываешь !
+                e.Cancel = false;
+
+            }
+            else
+            {
+                e.Cancel = true;
+            };
+        }
+
+        private void создатьОтчётToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ReportForm reportform = new ReportForm(this);
+            reportform.Show();
+
+            using (ApplicationContext db = new ApplicationContext())
+            {
+                reportform.dataGridView1.DataSource = db.Questions.ToList();
+
+            }
+        }
+
+        private void обАвтореToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ProcessStartInfo procInfo = new ProcessStartInfo();
+            // исполняемый файл программы - браузер хром
+            procInfo.FileName = @"C:\Program Files\Google\Chrome\Application\chrome";
+            // аргументы запуска - адрес интернет-ресурса
+            procInfo.Arguments = "https://vk.com/dimaruss195";
+            Process.Start(procInfo);
+        }
     }
 }

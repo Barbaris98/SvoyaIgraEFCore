@@ -52,16 +52,16 @@
             this.textBox1.Font = new System.Drawing.Font("Times New Roman", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.textBox1.Location = new System.Drawing.Point(454, 364);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(40, 50);
+            this.textBox1.Size = new System.Drawing.Size(195, 50);
             this.textBox1.TabIndex = 1;
             this.textBox1.TabStop = false;
             // 
             // textBox2
             // 
             this.textBox2.Font = new System.Drawing.Font("Times New Roman", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox2.Location = new System.Drawing.Point(554, 364);
+            this.textBox2.Location = new System.Drawing.Point(699, 364);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(40, 50);
+            this.textBox2.Size = new System.Drawing.Size(195, 50);
             this.textBox2.TabIndex = 2;
             this.textBox2.TabStop = false;
             // 
@@ -79,7 +79,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Times New Roman", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label2.Location = new System.Drawing.Point(505, 368);
+            this.label2.Location = new System.Drawing.Point(655, 367);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(38, 42);
             this.label2.TabIndex = 4;

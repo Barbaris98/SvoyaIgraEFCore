@@ -19,7 +19,6 @@ namespace SvoyaIgraEFCore
                 db.Questions.Load();
             }
             
-
         }
 
         # region [ Костыли для добавления очков командам ]
@@ -1302,9 +1301,31 @@ namespace SvoyaIgraEFCore
                 HowShowAnswer.showAnswerToId = 60;
             }
         }
-        # endregion
+        #endregion
 
-        
+
+
+
+        // дополнительный класс для каждой команды
+        public class Team
+        {
+            public string Name { get; set; }
+            public int Point { get; set; }
+            
+            // конструктор, принимает 2 параметра
+            public Team(string name, int point)
+            {
+                Name = name;
+                Point = point;
+            }
+
+            //переводит наш Name и Point в строковой формат
+            public override string ToString()
+            {
+                return $"{Name} - {Point}";
+            }
+        }
+
         //Game over
         private void button101_Click(object sender, EventArgs e)
         {
@@ -1312,6 +1333,23 @@ namespace SvoyaIgraEFCore
             gameOver.Show();
             button101.Enabled = false;
 
+            // вводим команды в список
+            List<Team> teams = new List<Team>
+            {
+                //УТОЧНИ!
+                //создаём новый экземпляр метода??? и передаём ему параметры...нет,мы наполняем наш лист просто... УТОЧНИ
+                new Team("1", PointCount.point1),
+                new Team("2", PointCount.point2),
+                new Team("3", PointCount.point3)
+            };
+            // сортируем по убыванию
+            List<Team> sort = teams.OrderByDescending(t => t.Point).ToList();
+            // выводим две самые результативные
+            gameOver.textBox1.Text = sort[0].ToString();
+            gameOver.textBox2.Text = sort[1].ToString();
+
+
+            /* Старый способ
             string komand1Win = "1";
             string komand2Win = "2";
             string komand3Win = "3";
@@ -1366,7 +1404,7 @@ namespace SvoyaIgraEFCore
                     gameOver.textBox2.Text = komand2Win;
                 }
             }
-
+            */
 
         }
 
@@ -1403,8 +1441,10 @@ namespace SvoyaIgraEFCore
                 reportform.dataGridView1.DataSource = db.Questions.ToList();
 
             }
+
         }
 
+        // Самая главная фича
         private void обАвтореToolStripMenuItem_Click(object sender, EventArgs e)
         {
             ProcessStartInfo procInfo = new ProcessStartInfo();

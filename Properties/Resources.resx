@@ -121,6 +121,24 @@
   <data name="bullets" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bullets.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="check_small_icon_155663" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\check_small_icon_155663.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="clipboard_note_document_report_paper_icon_192535" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\clipboard_note_document_report_paper_icon_192535.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="degree_hat_icon_155510" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\degree_hat_icon_155510.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fire_icon_155393" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fire_icon_155393.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="help_question_16768" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\help_question_16768.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="help_question_icon_155279" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\help_question_icon_155279.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="iklemo1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\iklemo1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -166,13 +184,34 @@
   <data name="oryjie5" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\oryjie5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="rock_gesture_icon_154895" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rock_gesture_icon_154895.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rock_gesture_icon_154895__1_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rock_gesture_icon_154895 (1).ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="sastavka1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\sastavka1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="sastavka2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\sastavka2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="star_icon_154797" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\star_icon_154797.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="thinking_problem_icon_154732" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\thinking_problem_icon_154732.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="user_business_icon_154653" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\user_business_icon_154653.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="woman_icon_154591" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\woman_icon_154591.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="zachet" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\zachet.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_42697fire_98982" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\42697fire_98982.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

@@ -63,9 +63,79 @@ namespace SvoyaIgraEFCore.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Icon, аналогичного (Значок).
         /// </summary>
+        internal static System.Drawing.Icon _42697fire_98982 {
+            get {
+                object obj = ResourceManager.GetObject("_42697fire_98982", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Icon, аналогичного (Значок).
+        /// </summary>
         internal static System.Drawing.Icon bullets {
             get {
                 object obj = ResourceManager.GetObject("bullets", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Icon, аналогичного (Значок).
+        /// </summary>
+        internal static System.Drawing.Icon check_small_icon_155663 {
+            get {
+                object obj = ResourceManager.GetObject("check_small_icon_155663", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Icon, аналогичного (Значок).
+        /// </summary>
+        internal static System.Drawing.Icon clipboard_note_document_report_paper_icon_192535 {
+            get {
+                object obj = ResourceManager.GetObject("clipboard_note_document_report_paper_icon_192535", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Icon, аналогичного (Значок).
+        /// </summary>
+        internal static System.Drawing.Icon degree_hat_icon_155510 {
+            get {
+                object obj = ResourceManager.GetObject("degree_hat_icon_155510", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Icon, аналогичного (Значок).
+        /// </summary>
+        internal static System.Drawing.Icon fire_icon_155393 {
+            get {
+                object obj = ResourceManager.GetObject("fire_icon_155393", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Icon, аналогичного (Значок).
+        /// </summary>
+        internal static System.Drawing.Icon help_question_16768 {
+            get {
+                object obj = ResourceManager.GetObject("help_question_16768", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Icon, аналогичного (Значок).
+        /// </summary>
+        internal static System.Drawing.Icon help_question_icon_155279 {
+            get {
+                object obj = ResourceManager.GetObject("help_question_icon_155279", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -221,6 +291,26 @@ namespace SvoyaIgraEFCore.Properties {
         }
         
         /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Icon, аналогичного (Значок).
+        /// </summary>
+        internal static System.Drawing.Icon rock_gesture_icon_154895 {
+            get {
+                object obj = ResourceManager.GetObject("rock_gesture_icon_154895", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Icon, аналогичного (Значок).
+        /// </summary>
+        internal static System.Drawing.Icon rock_gesture_icon_154895__1_ {
+            get {
+                object obj = ResourceManager.GetObject("rock_gesture_icon_154895__1_", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap sastavka1 {
@@ -237,6 +327,46 @@ namespace SvoyaIgraEFCore.Properties {
             get {
                 object obj = ResourceManager.GetObject("sastavka2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Icon, аналогичного (Значок).
+        /// </summary>
+        internal static System.Drawing.Icon star_icon_154797 {
+            get {
+                object obj = ResourceManager.GetObject("star_icon_154797", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Icon, аналогичного (Значок).
+        /// </summary>
+        internal static System.Drawing.Icon thinking_problem_icon_154732 {
+            get {
+                object obj = ResourceManager.GetObject("thinking_problem_icon_154732", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Icon, аналогичного (Значок).
+        /// </summary>
+        internal static System.Drawing.Icon user_business_icon_154653 {
+            get {
+                object obj = ResourceManager.GetObject("user_business_icon_154653", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Icon, аналогичного (Значок).
+        /// </summary>
+        internal static System.Drawing.Icon woman_icon_154591 {
+            get {
+                object obj = ResourceManager.GetObject("woman_icon_154591", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
             }
         }
         

@@ -21,7 +21,7 @@ namespace SvoyaIgraEFCore
             
         }
 
-        # region [ Костыли для добавления очков командам ]
+        # region [ Добавление очков командам ]
         static class PointCount //Очки команд
         {
             public static int point1 { get; set; }
@@ -105,8 +105,7 @@ namespace SvoyaIgraEFCore
         //Обновить
         private void button100_Click(object sender, EventArgs e)
         {
-            //созд новый экзеипляр формы (озможно показапть)
-            // и код со старого проекта сюда форма.пкыпцпЮ,   форма .цкпукп
+            
             if (textBox1 != null)
             {
                 textBox1.Text = PointCount.point1.ToString();
@@ -143,7 +142,7 @@ namespace SvoyaIgraEFCore
                 //выводим содержимое question по нулевому индексу, а не сам объект question!
                 form1.textBox1.Text = question[0].Text.ToString();
 
-                //изменяем параметр у костыля чтоб ответ показывался по соответ id
+                //изменяем параметр чтоб ответ показывался по соответ id
                 HowShowAnswer.showAnswerToId = 1;
 
             }
@@ -164,7 +163,7 @@ namespace SvoyaIgraEFCore
                 //выводим содержимое question по нулевому индексу, а не сам объект question!
                 form2.textBox1.Text = question[0].Text.ToString();
 
-                //изменяем параметр у костыля чтоб ответ показывался по соответ id
+                //изменяем параметр чтоб ответ показывался по соответ id
                 HowShowAnswer.showAnswerToId = 2;
 
             }
@@ -186,7 +185,7 @@ namespace SvoyaIgraEFCore
                 //выводим содержимое question по нулевому индексу, а не сам объект question!
                 form3.textBox1.Text = question[0].Text.ToString();
 
-                //изменяем параметр у костыля чтоб ответ показывался по соответ id
+                //изменяем параметр чтоб ответ показывался по соответ id
                 HowShowAnswer.showAnswerToId = 3;
 
             }
@@ -208,7 +207,7 @@ namespace SvoyaIgraEFCore
                 //выводим содержимое question по нулевому индексу, а не сам объект question!
                 form4.textBox1.Text = question[0].Text.ToString();
 
-                //изменяем параметр у костыля чтоб ответ показывался по соответ id
+                //изменяем параметр чтоб ответ показывался по соответ id
                 HowShowAnswer.showAnswerToId = 4;
 
             }
@@ -228,7 +227,7 @@ namespace SvoyaIgraEFCore
                 //выводим содержимое question по нулевому индексу, а не сам объект question!
                 form5.textBox1.Text = question[0].Text.ToString();
 
-                //изменяем параметр у костыля чтоб ответ показывался по соответ id
+                //изменяем параметр чтоб ответ показывался по соответ id
                 HowShowAnswer.showAnswerToId = 5;
 
             }
@@ -247,7 +246,7 @@ namespace SvoyaIgraEFCore
                 //выводим содержимое question по нулевому индексу, а не сам объект question!
                 form1.textBox1.Text = question[0].Text.ToString();
 
-                //изменяем параметр у костыля чтоб ответ показывался по соответ id
+                //изменяем параметр чтоб ответ показывался по соответ id
                 HowShowAnswer.showAnswerToId = 6;
 
             }
@@ -266,7 +265,7 @@ namespace SvoyaIgraEFCore
                 //выводим содержимое question по нулевому индексу, а не сам объект question!
                 form2.textBox1.Text = question[0].Text.ToString();
 
-                //изменяем параметр у костыля чтоб ответ показывался по соответ id
+                //изменяем параметр чтоб ответ показывался по соответ id
                 HowShowAnswer.showAnswerToId = 7;
             }
         }
@@ -284,7 +283,7 @@ namespace SvoyaIgraEFCore
                 //выводим содержимое question по нулевому индексу, а не сам объект question!
                 form3.textBox1.Text = question[0].Text.ToString();
 
-                //изменяем параметр у костыля чтоб ответ показывался по соответ id
+                //изменяем параметр чтоб ответ показывался по соответ id
                 HowShowAnswer.showAnswerToId = 8;
 
             }
@@ -303,7 +302,7 @@ namespace SvoyaIgraEFCore
                 //выводим содержимое question по нулевому индексу, а не сам объект question!
                 form4.textBox1.Text = question[0].Text.ToString();
 
-                //изменяем параметр у костыля чтоб ответ показывался по соответ id
+                //изменяем параметр  чтоб ответ показывался по соответ id
                 HowShowAnswer.showAnswerToId = 9;
 
             }
@@ -322,7 +321,7 @@ namespace SvoyaIgraEFCore
                 //выводим содержимое question по нулевому индексу, а не сам объект question!
                 form5.textBox1.Text = question[0].Text.ToString();
 
-                //изменяем параметр у костыля чтоб ответ показывался по соответ id
+                //изменяем параметр чтоб ответ показывался по соответ id
                 HowShowAnswer.showAnswerToId = 10;
 
             }
@@ -341,7 +340,7 @@ namespace SvoyaIgraEFCore
                 //выводим содержимое question по нулевому индексу, а не сам объект question!
                 form1.textBox1.Text = question[0].Text.ToString();
 
-                //изменяем параметр у костыля чтоб ответ показывался по соответ id
+                //изменяем параметр чтоб ответ показывался по соответ id
                 HowShowAnswer.showAnswerToId = 11;
 
             }
@@ -360,7 +359,7 @@ namespace SvoyaIgraEFCore
                 //выводим содержимое question по нулевому индексу, а не сам объект question!
                 form2.textBox1.Text = question[0].Text.ToString();
 
-                //изменяем параметр у костыля чтоб ответ показывался по соответ id
+                //изменяем параметр чтоб ответ показывался по соответ id
                 HowShowAnswer.showAnswerToId = 12;
             }
         }
@@ -378,7 +377,7 @@ namespace SvoyaIgraEFCore
                 //выводим содержимое question по нулевому индексу, а не сам объект question!
                 form3.textBox1.Text = question[0].Text.ToString();
 
-                //изменяем параметр у костыля чтоб ответ показывался по соответ id
+                //изменяем параметр чтоб ответ показывался по соответ id
                 HowShowAnswer.showAnswerToId = 13;
 
             }
@@ -397,7 +396,7 @@ namespace SvoyaIgraEFCore
                 //выводим содержимое question по нулевому индексу, а не сам объект question!
                 form4.textBox1.Text = question[0].Text.ToString();
 
-                //изменяем параметр у костыля чтоб ответ показывался по соответ id
+                //изменяем параметр   чтоб ответ показывался по соответ id
                 HowShowAnswer.showAnswerToId = 14;
 
             }
@@ -416,7 +415,7 @@ namespace SvoyaIgraEFCore
                 //выводим содержимое question по нулевому индексу, а не сам объект question!
                 form5.textBox1.Text = question[0].Text.ToString();
 
-                //изменяем параметр у костыля чтоб ответ показывался по соответ id
+                //изменяем параметр   чтоб ответ показывался по соответ id
                 HowShowAnswer.showAnswerToId = 15;
 
             }
@@ -437,7 +436,7 @@ namespace SvoyaIgraEFCore
                 //выводим содержимое question по нулевому индексу, а не сам объект question!
                 form6.textBox1.Text = question[0].Text.ToString();
 
-                //изменяем параметр у костыля чтоб ответ показывался по соответ id
+                //изменяем параметр   чтоб ответ показывался по соответ id
                 HowShowAnswer.showAnswerToId = 16;
 
             }
@@ -456,7 +455,7 @@ namespace SvoyaIgraEFCore
                 //выводим содержимое question по нулевому индексу, а не сам объект question!
                 form7.textBox1.Text = question[0].Text.ToString();
 
-                //изменяем параметр у костыля чтоб ответ показывался по соответ id
+                //изменяем параметр   чтоб ответ показывался по соответ id
                 HowShowAnswer.showAnswerToId = 17;
 
             }
@@ -475,7 +474,7 @@ namespace SvoyaIgraEFCore
                 //выводим содержимое question по нулевому индексу, а не сам объект question!
                 form8.textBox1.Text = question[0].Text.ToString();
 
-                //изменяем параметр у костыля чтоб ответ показывался по соответ id
+                //изменяем параметр   чтоб ответ показывался по соответ id
                 HowShowAnswer.showAnswerToId = 18;
 
             }
@@ -494,7 +493,7 @@ namespace SvoyaIgraEFCore
                 //выводим содержимое question по нулевому индексу, а не сам объект question!
                 form9.textBox1.Text = question[0].Text.ToString();
 
-                //изменяем параметр у костыля чтоб ответ показывался по соответ id
+                //изменяем параметр   чтоб ответ показывался по соответ id
                 HowShowAnswer.showAnswerToId = 19;
 
             }
@@ -513,7 +512,7 @@ namespace SvoyaIgraEFCore
                 //выводим содержимое question по нулевому индексу, а не сам объект question!
                 form10.textBox1.Text = question[0].Text.ToString();
 
-                //изменяем параметр у костыля чтоб ответ показывался по соответ id
+                //изменяем параметр   чтоб ответ показывался по соответ id
                 HowShowAnswer.showAnswerToId = 20;
 
             }
@@ -532,7 +531,7 @@ namespace SvoyaIgraEFCore
                 //выводим содержимое question по нулевому индексу, а не сам объект question!
                 form1.textBox1.Text = question[0].Text.ToString();
 
-                //изменяем параметр у костыля чтоб ответ показывался по соответ id
+                //изменяем параметр   чтоб ответ показывался по соответ id
                 HowShowAnswer.showAnswerToId = 21;
 
             }
@@ -551,7 +550,7 @@ namespace SvoyaIgraEFCore
                 //выводим содержимое question по нулевому индексу, а не сам объект question!
                 form2.textBox1.Text = question[0].Text.ToString();
 
-                //изменяем параметр у костыля чтоб ответ показывался по соответ id
+                //изменяем параметр   чтоб ответ показывался по соответ id
                 HowShowAnswer.showAnswerToId = 22;
             }
         }
@@ -569,7 +568,7 @@ namespace SvoyaIgraEFCore
                 //выводим содержимое question по нулевому индексу, а не сам объект question!
                 form3.textBox1.Text = question[0].Text.ToString();
 
-                //изменяем параметр у костыля чтоб ответ показывался по соответ id
+                //изменяем параметр   чтоб ответ показывался по соответ id
                 HowShowAnswer.showAnswerToId = 23;
 
             }
@@ -588,7 +587,7 @@ namespace SvoyaIgraEFCore
                 //выводим содержимое question по нулевому индексу, а не сам объект question!
                 form4.textBox1.Text = question[0].Text.ToString();
 
-                //изменяем параметр у костыля чтоб ответ показывался по соответ id
+                //изменяем параметр   чтоб ответ показывался по соответ id
                 HowShowAnswer.showAnswerToId = 24;
 
             }
@@ -607,7 +606,7 @@ namespace SvoyaIgraEFCore
                 //выводим содержимое question по нулевому индексу, а не сам объект question!
                 form5.textBox1.Text = question[0].Text.ToString();
 
-                //изменяем параметр у костыля чтоб ответ показывался по соответ id
+                //изменяем параметр   чтоб ответ показывался по соответ id
                 HowShowAnswer.showAnswerToId = 25;
 
             }
@@ -630,7 +629,7 @@ namespace SvoyaIgraEFCore
                 //выводим содержимое question по нулевому индексу, а не сам объект question!
                 form1.textBox1.Text = question[0].Text.ToString();
 
-                //изменяем параметр у костыля чтоб ответ показывался по соответ id
+                //изменяем параметр   чтоб ответ показывался по соответ id
                 HowShowAnswer.showAnswerToId = 26;
 
             }
@@ -649,7 +648,7 @@ namespace SvoyaIgraEFCore
                 //выводим содержимое question по нулевому индексу, а не сам объект question!
                 form2.textBox1.Text = question[0].Text.ToString();
 
-                //изменяем параметр у костыля чтоб ответ показывался по соответ id
+                //изменяем параметр   чтоб ответ показывался по соответ id
                 HowShowAnswer.showAnswerToId = 27;
             }
         }
@@ -667,7 +666,7 @@ namespace SvoyaIgraEFCore
                 //выводим содержимое question по нулевому индексу, а не сам объект question!
                 form3.textBox1.Text = question[0].Text.ToString();
 
-                //изменяем параметр у костыля чтоб ответ показывался по соответ id
+                //изменяем параметр   чтоб ответ показывался по соответ id
                 HowShowAnswer.showAnswerToId = 28;
 
             }
@@ -686,7 +685,7 @@ namespace SvoyaIgraEFCore
                 //выводим содержимое question по нулевому индексу, а не сам объект question!
                 form4.textBox1.Text = question[0].Text.ToString();
 
-                //изменяем параметр у костыля чтоб ответ показывался по соответ id
+                //изменяем параметр   чтоб ответ показывался по соответ id
                 HowShowAnswer.showAnswerToId = 29;
 
             }
@@ -705,7 +704,7 @@ namespace SvoyaIgraEFCore
                 //выводим содержимое question по нулевому индексу, а не сам объект question!
                 form5.textBox1.Text = question[0].Text.ToString();
 
-                //изменяем параметр у костыля чтоб ответ показывался по соответ id
+                //изменяем параметр   чтоб ответ показывался по соответ id
                 HowShowAnswer.showAnswerToId = 30;
 
             }
@@ -724,7 +723,7 @@ namespace SvoyaIgraEFCore
                 //выводим содержимое question по нулевому индексу, а не сам объект question!
                 form1.textBox1.Text = question[0].Text.ToString();
 
-                //изменяем параметр у костыля чтоб ответ показывался по соответ id
+                //изменяем параметр   чтоб ответ показывался по соответ id
                 HowShowAnswer.showAnswerToId = 31;
 
             }
@@ -743,7 +742,7 @@ namespace SvoyaIgraEFCore
                 //выводим содержимое question по нулевому индексу, а не сам объект question!
                 form2.textBox1.Text = question[0].Text.ToString();
 
-                //изменяем параметр у костыля чтоб ответ показывался по соответ id
+                //изменяем параметр   чтоб ответ показывался по соответ id
                 HowShowAnswer.showAnswerToId = 32;
             }
         }
@@ -761,7 +760,7 @@ namespace SvoyaIgraEFCore
                 //выводим содержимое question по нулевому индексу, а не сам объект question!
                 form3.textBox1.Text = question[0].Text.ToString();
 
-                //изменяем параметр у костыля чтоб ответ показывался по соответ id
+                //изменяем параметр   чтоб ответ показывался по соответ id
                 HowShowAnswer.showAnswerToId = 33;
 
             }
@@ -780,7 +779,7 @@ namespace SvoyaIgraEFCore
                 //выводим содержимое question по нулевому индексу, а не сам объект question!
                 form4.textBox1.Text = question[0].Text.ToString();
 
-                //изменяем параметр у костыля чтоб ответ показывался по соответ id
+                //изменяем параметр   чтоб ответ показывался по соответ id
                 HowShowAnswer.showAnswerToId = 34;
 
             }
@@ -799,7 +798,7 @@ namespace SvoyaIgraEFCore
                 //выводим содержимое question по нулевому индексу, а не сам объект question!
                 form5.textBox1.Text = question[0].Text.ToString();
 
-                //изменяем параметр у костыля чтоб ответ показывался по соответ id
+                //изменяем параметр   чтоб ответ показывался по соответ id
                 HowShowAnswer.showAnswerToId = 35;
 
             }
@@ -818,7 +817,7 @@ namespace SvoyaIgraEFCore
                 //выводим содержимое question по нулевому индексу, а не сам объект question!
                 form1.textBox1.Text = question[0].Text.ToString();
 
-                //изменяем параметр у костыля чтоб ответ показывался по соответ id
+                //изменяем параметр   чтоб ответ показывался по соответ id
                 HowShowAnswer.showAnswerToId = 36;
 
             }
@@ -837,7 +836,7 @@ namespace SvoyaIgraEFCore
                 //выводим содержимое question по нулевому индексу, а не сам объект question!
                 form2.textBox1.Text = question[0].Text.ToString();
 
-                //изменяем параметр у костыля чтоб ответ показывался по соответ id
+                //изменяем параметр   чтоб ответ показывался по соответ id
                 HowShowAnswer.showAnswerToId = 37;
             }
         }
@@ -855,7 +854,7 @@ namespace SvoyaIgraEFCore
                 //выводим содержимое question по нулевому индексу, а не сам объект question!
                 form3.textBox1.Text = question[0].Text.ToString();
 
-                //изменяем параметр у костыля чтоб ответ показывался по соответ id
+                //изменяем параметр   чтоб ответ показывался по соответ id
                 HowShowAnswer.showAnswerToId = 38;
 
             }
@@ -874,7 +873,7 @@ namespace SvoyaIgraEFCore
                 //выводим содержимое question по нулевому индексу, а не сам объект question!
                 form4.textBox1.Text = question[0].Text.ToString();
 
-                //изменяем параметр у костыля чтоб ответ показывался по соответ id
+                //изменяем параметр   чтоб ответ показывался по соответ id
                 HowShowAnswer.showAnswerToId = 39;
 
             }
@@ -893,7 +892,7 @@ namespace SvoyaIgraEFCore
                 //выводим содержимое question по нулевому индексу, а не сам объект question!
                 form5.textBox1.Text = question[0].Text.ToString();
 
-                //изменяем параметр у костыля чтоб ответ показывался по соответ id
+                //изменяем параметр   чтоб ответ показывался по соответ id
                 HowShowAnswer.showAnswerToId = 40;
 
             }
@@ -912,7 +911,7 @@ namespace SvoyaIgraEFCore
                 //выводим содержимое question по нулевому индексу, а не сам объект question!
                 form1.textBox1.Text = question[0].Text.ToString();
 
-                //изменяем параметр у костыля чтоб ответ показывался по соответ id
+                //изменяем параметр   чтоб ответ показывался по соответ id
                 HowShowAnswer.showAnswerToId = 41;
 
             }
@@ -931,7 +930,7 @@ namespace SvoyaIgraEFCore
                 //выводим содержимое question по нулевому индексу, а не сам объект question!
                 form2.textBox1.Text = question[0].Text.ToString();
 
-                //изменяем параметр у костыля чтоб ответ показывался по соответ id
+                //изменяем параметр   чтоб ответ показывался по соответ id
                 HowShowAnswer.showAnswerToId = 42;
             }
         }
@@ -949,7 +948,7 @@ namespace SvoyaIgraEFCore
                 //выводим содержимое question по нулевому индексу, а не сам объект question!
                 form3.textBox1.Text = question[0].Text.ToString();
 
-                //изменяем параметр у костыля чтоб ответ показывался по соответ id
+                //изменяем параметр   чтоб ответ показывался по соответ id
                 HowShowAnswer.showAnswerToId = 43;
 
             }
@@ -968,7 +967,7 @@ namespace SvoyaIgraEFCore
                 //выводим содержимое question по нулевому индексу, а не сам объект question!
                 form4.textBox1.Text = question[0].Text.ToString();
 
-                //изменяем параметр у костыля чтоб ответ показывался по соответ id
+                //изменяем параметр   чтоб ответ показывался по соответ id
                 HowShowAnswer.showAnswerToId = 44;
 
             }
@@ -987,7 +986,7 @@ namespace SvoyaIgraEFCore
                 //выводим содержимое question по нулевому индексу, а не сам объект question!
                 form5.textBox1.Text = question[0].Text.ToString();
 
-                //изменяем параметр у костыля чтоб ответ показывался по соответ id
+                //изменяем параметр   чтоб ответ показывался по соответ id
                 HowShowAnswer.showAnswerToId = 45;
 
             }
@@ -1006,7 +1005,7 @@ namespace SvoyaIgraEFCore
                 //выводим содержимое question по нулевому индексу, а не сам объект question!
                 form1.textBox1.Text = question[0].Text.ToString();
 
-                //изменяем параметр у костыля чтоб ответ показывался по соответ id
+                //изменяем параметр   чтоб ответ показывался по соответ id
                 HowShowAnswer.showAnswerToId = 46;
 
             }
@@ -1025,7 +1024,7 @@ namespace SvoyaIgraEFCore
                 //выводим содержимое question по нулевому индексу, а не сам объект question!
                 form2.textBox1.Text = question[0].Text.ToString();
 
-                //изменяем параметр у костыля чтоб ответ показывался по соответ id
+                //изменяем параметр   чтоб ответ показывался по соответ id
                 HowShowAnswer.showAnswerToId = 47;
             }
         }
@@ -1043,7 +1042,7 @@ namespace SvoyaIgraEFCore
                 //выводим содержимое question по нулевому индексу, а не сам объект question!
                 form3.textBox1.Text = question[0].Text.ToString();
 
-                //изменяем параметр у костыля чтоб ответ показывался по соответ id
+                //изменяем параметр   чтоб ответ показывался по соответ id
                 HowShowAnswer.showAnswerToId = 48;
 
             }
@@ -1062,7 +1061,7 @@ namespace SvoyaIgraEFCore
                 //выводим содержимое question по нулевому индексу, а не сам объект question!
                 form4.textBox1.Text = question[0].Text.ToString();
 
-                //изменяем параметр у костыля чтоб ответ показывался по соответ id
+                //изменяем параметр   чтоб ответ показывался по соответ id
                 HowShowAnswer.showAnswerToId = 49;
 
             }
@@ -1081,7 +1080,7 @@ namespace SvoyaIgraEFCore
                 //выводим содержимое question по нулевому индексу, а не сам объект question!
                 form5.textBox1.Text = question[0].Text.ToString();
 
-                //изменяем параметр у костыля чтоб ответ показывался по соответ id
+                //изменяем параметр   чтоб ответ показывался по соответ id
                 HowShowAnswer.showAnswerToId = 50;
 
             }
@@ -1107,7 +1106,7 @@ namespace SvoyaIgraEFCore
                 //выводим содержимое question по нулевому индексу, а не сам объект question!
                 form6.textBox1.Text = question[0].Text.ToString();
 
-                //изменяем параметр у костыля чтоб ответ показывался по соответ id
+                //изменяем параметр   чтоб ответ показывался по соответ id
                 HowShowAnswer.showAnswerToId = 51;
             }
         }
@@ -1128,7 +1127,7 @@ namespace SvoyaIgraEFCore
                 //выводим содержимое question по нулевому индексу, а не сам объект question!
                 form7.textBox1.Text = question[0].Text.ToString();
 
-                //изменяем параметр у костыля чтоб ответ показывался по соответ id
+                //изменяем параметр   чтоб ответ показывался по соответ id
                 HowShowAnswer.showAnswerToId = 52;
             }
         }
@@ -1149,7 +1148,7 @@ namespace SvoyaIgraEFCore
                 //выводим содержимое question по нулевому индексу, а не сам объект question!
                 form8.textBox1.Text = question[0].Text.ToString();
 
-                //изменяем параметр у костыля чтоб ответ показывался по соответ id
+                //изменяем параметр   чтоб ответ показывался по соответ id
                 HowShowAnswer.showAnswerToId = 53;
             }
         }
@@ -1170,7 +1169,7 @@ namespace SvoyaIgraEFCore
                 //выводим содержимое question по нулевому индексу, а не сам объект question!
                 form9.textBox1.Text = question[0].Text.ToString();
 
-                //изменяем параметр у костыля чтоб ответ показывался по соответ id
+                //изменяем параметр   чтоб ответ показывался по соответ id
                 HowShowAnswer.showAnswerToId = 54;
             }
         }
@@ -1191,7 +1190,7 @@ namespace SvoyaIgraEFCore
                 //выводим содержимое question по нулевому индексу, а не сам объект questЗомбилэндion!
                 form10.textBox1.Text = question[0].Text.ToString();
 
-                //изменяем параметр у костыля чтоб ответ показывался по соответ id
+                //изменяем параметр   чтоб ответ показывался по соответ id
                 HowShowAnswer.showAnswerToId = 55;
             }
         }
@@ -1213,7 +1212,7 @@ namespace SvoyaIgraEFCore
                 //выводим содержимое question по нулевому индексу, а не сам объект question!
                 form6.textBox1.Text = question[0].Text.ToString();
 
-                //изменяем параметр у костыля чтоб ответ показывался по соответ id
+                //изменяем параметр   чтоб ответ показывался по соответ id
                 HowShowAnswer.showAnswerToId = 56;
             }
         }
@@ -1234,7 +1233,7 @@ namespace SvoyaIgraEFCore
                 //выводим содержимое question по нулевому индексу, а не сам объект question!
                 form7.textBox1.Text = question[0].Text.ToString();
 
-                //изменяем параметр у костыля чтоб ответ показывался по соответ id
+                //изменяем параметр   чтоб ответ показывался по соответ id
                 HowShowAnswer.showAnswerToId = 57;
             }
         }
@@ -1255,7 +1254,7 @@ namespace SvoyaIgraEFCore
                 //выводим содержимое question по нулевому индексу, а не сам объект question!
                 form8.textBox1.Text = question[0].Text.ToString();
 
-                //изменяем параметр у костыля чтоб ответ показывался по соответ id
+                //изменяем параметр   чтоб ответ показывался по соответ id
                 HowShowAnswer.showAnswerToId = 58;
             }
         }
@@ -1276,7 +1275,7 @@ namespace SvoyaIgraEFCore
                 //выводим содержимое question по нулевому индексу, а не сам объект question!
                 form9.textBox1.Text = question[0].Text.ToString();
 
-                //изменяем параметр у костыля чтоб ответ показывался по соответ id
+                //изменяем параметр   чтоб ответ показывался по соответ id
                 HowShowAnswer.showAnswerToId = 59;
             }
         }
@@ -1297,7 +1296,7 @@ namespace SvoyaIgraEFCore
                 //выводим содержимое question по нулевому индексу, а не сам объект questЗомбилэндion!
                 form10.textBox1.Text = question[0].Text.ToString();
 
-                //изменяем параметр у костыля чтоб ответ показывался по соответ id
+                //изменяем параметр   чтоб ответ показывался по соответ id
                 HowShowAnswer.showAnswerToId = 60;
             }
         }

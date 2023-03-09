@@ -81,7 +81,7 @@ namespace SvoyaIgraEFCore
         //показать ответ
         private void button100_Click(object sender, EventArgs e)
         {
-            //пошли костыли
+            
             if (MainForm.HowShowAnswer.showAnswerToId == 1)
             {
                 using (ApplicationContext db = new ApplicationContext())

@@ -79,7 +79,7 @@ namespace SvoyaIgraEFCore
 
         private void button100_Click(object sender, EventArgs e)
         {
-            //пошли костыли
+            
             if (MainForm.HowShowAnswer.showAnswerToId == 4)
             {
                 using (ApplicationContext db = new ApplicationContext())
